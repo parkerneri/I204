@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #2d6a4f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.topnavbar {
+    background-color: #1b4332;
+    overflow: hidden;
+    
+}
+
+.topnavbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnavbar a:hover {
+    background-color: #2d6a4f;
+}
+
+.topnavbar a.active {
+    background-color: #2d6a4f;
+}
+
+.img1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.img1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.quote-container {
+    background-color: #81b29a;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 24px;
+    margin: 0;
+}
+
+.text-container {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 36px;
+    }
+
+    .topnavbar a {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .text-container {
+        font-size: 14px;
+    }
+}
+
