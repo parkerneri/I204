@@ -1,2 +1,2 @@
-# first_lab_act
+# 1st_Lab_Activity
 For education purposes only.
